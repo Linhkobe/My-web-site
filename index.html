@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Project Site Web</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+<link href="https://fonts.googleapis.com/css2?family=Pattaya&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com"> 
+<link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@600&display=swap" rel="stylesheet">
+</head>
+<nav class="navbar navbar-expand-lg navbar-light bg-dark">
+  <a class="navbar-brand" href="#" id="logo">My Coffee</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" id="toggle" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#" id="list">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#" id="list">About Us</a>
+      </li>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#" id="list"> Product</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#" id="list">Sign In</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#" id="list">Contact</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit" id="search">Search</button>
+    </form>
+  </div>
+</nav>
+  <body class="container" id="container1">
+    <img class="pic1 img-fluid" src="pic1.jpg"></img>
+    <hr>
+    <h1>Product</h1>
+    <div class="row">
+      <div class="colum1 col-md-3">
+          <p>Latte coffee</p>
+          <img class="pic1 img-fluid" src="pic2.jpg"></img>
+          <p id="order">Order</p>
+      </div>
+      <div class="colum2 col-md-3">
+        <p>Cappucino Coffee</p>
+        <img class="pic1 img-fluid" src="pic3.jpg"></img>
+        <p id="order">Order</p>
+      </div>
+      <div class="colum3 col-md-3">
+        <p>Matcha</p>
+        <img class="pic1 img-fluid" src="pic4.jpg"></img>
+        <p id="order">Order</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="colum3 col-md-3">
+        <p>Tiramisu</p>
+        <img class="pic1 img-fluid" src="pic5.jpg"></img>
+        <p id="order">Order</p>
+      </div>
+      <div class="colum3 col-md-3">
+        <p>Red Velvet</p>
+        <img class="pic1 img-fluid" src="pic6.jpg"></img>
+        <p id="order">Order</p>
+      </div>
+      <div class="colum3 col-md-3">
+        <p>Milk Tea</p>
+        <img class="pic1 img-fluid" src="pic7.jpg"></img>
+        <p id="order">Order</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="colum3 col-md-3">
+        <p>Strawberry Smoothie</p>
+        <img class="pic1 img-fluid" src="pic8.jpg"></img>
+        <p id="order">Order</p>
+      </div>
+      <div class="colum3 col-md-3">
+        <p>Banana Smoothie</p>
+        <img class="pic1 img-fluid" src="pic9.jpg"></img>
+        <p id="order">Order</p>
+      </div>
+      <div class="colum3 col-md-3">
+        <p>Croissant</p>
+        <img class="pic1 img-fluid" src="pic10.jpg"></img>
+          <p id="order">Order</p>
+      </div>
+    </div>
+    <hr>
+  <body class="container" id="page2">
+    <h1>Sign In</h1>
+    <form action="" class="main-form needs-validation" novalidate>
+      <div class="row">
+          <div class="col">
+              <div class="form-group">
+                  <label for="firstname">Firstname</label>
+                  <input type="text" name="firstname" id="firstname" class="form-control is-invalid">
+                  <div class="invalid-feedback">Required*</div>
+              </div>
+          </div>
+          <div class="col">
+              <div class="form-group">
+                  <label for="lastname">Lastname</label>
+                  <input type="text" name="lastname" id="lastname" class="form-control">
+                  <small class="form-text text-muted">
+                      This should be your last name.
+                  </small>
+              </div>
+          </div>
+      </div>
+      <div class="form-group">
+          <label for="username">Username</label>
+          <input type="text" name="username" id="username" class="form-control" required>
+          <div class="invalid-feedback">Please enter a valid username.</div>
+      </div>
+      <div class="form-group">
+          <label for="password">Password</label>
+          <input type="password" name="password" id="password" class="form-control">
+      </div>
+      <div class="form-group">
+          <label for="gender">Gender</label>
+          <select name="gender" id="gender" class="form-control">
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+          </select>
+      </div>
+      <div class="form-check">
+          <input type="checkbox" id="accept-terms" class="form-check-input">
+          <label for="accept-terms" class="form-check-label">Accept Terms &amp; Conditions</label>
+      </div>
+      <button type="submit" class="btn btn-primary">Access</button>
+  </form>
+  <hr>
+  </body class="container" id="page3">
+    <h1>Contact</h1>
+    <ul id="apps">
+        <li><a href="#"><i class="fa fa-facebook-official" fa-lg></i></a></li>
+        <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+        <li><a href="#"><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
+    </ul>
+  </body>
+  <hr>
+</body class="container" id="page4">
+<h1>Réalisateur de ce site web</h1>
+<ul id="Info">
+    <li>
+      <div class="content">
+          <p id="nom">TUAN LINH DAO</p>
+          <p id="nom">GROUPE B2</p>
+          <img class="stid img-fluid" src="logo_stid.jpg"></img>
+      </div>
+    </li>
+</ul>
+</body>
+
+</html>
