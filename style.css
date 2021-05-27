@@ -1,0 +1,125 @@
+*{
+    font-family: 'Arial', cursive;
+  }
+  .container {
+      width: 80%;
+      padding-right:15px;
+      padding-left: 15px;
+      margin-right: auto;
+      margin-left: auto;
+      }
+#page2 {
+      width: 80%;
+      height: 100px;
+      background-color: darkcyan;
+      }
+  [class*="col-md"] {
+      background-color:wheat;
+      border-radius: 10px;
+      padding:15px;
+      margin:20px;
+      line-height: 40px;
+      text-align: justify;
+      }	
+.colum1 {
+    left: auto;
+    background-color:wheat;
+}	
+.colum2 {
+    left: auto;
+    background-color:wheat;
+}
+.colum3 {
+    left: auto;
+    background-color:wheat;
+}
+.colum4 {
+    left: auto;
+    background-color:wheat;
+}
+ pic4 {
+    height: 100px;
+    width: 300px;
+}	
+p {
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}	
+#order {
+    background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  cursor: pointer;
+  margin: 10px;
+}   
+#list {
+    color: white;
+    font-size: 20px;
+}
+#logo {
+    color: darksalmon;
+}  
+#search {
+    color: lightseagreen;
+} 
+#toggle {
+    color: lightgoldenrodyellow;
+} 
+#apps {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+} 
+ul {
+    position: relative;
+    display: flex;
+} 
+ul li {
+    position: relative;
+    list-style: none;
+} 
+ul li a {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    border-radius: 50%;
+    color: mediumaquamarine;
+    transition: 0.5s;
+    font-size: 40px;
+} 
+ul li a :hover {
+    color: firebrick;
+} 
+#Info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    height: 50vh;
+    background: bisque;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+} 
+ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}  
+.stid {
+    height: 200px;
+    width: 200px;
+} 
+#nom {
+    color: firebrick;
+    font-size: 30px;
+} 
+h1 {
+    font-family:'Pattaya';
+} 
